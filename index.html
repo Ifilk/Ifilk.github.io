@@ -1,10 +1,350 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset=""UTF-8">
-    <title>Test</title>
+	<title>贵阳八中模联</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<!------ commn-js files ----->
+	<script src="js/jquery.min.js"> </script>
+	<!------ commn-js files ----->
+	<!----- theme-style ----->
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<!----- theme-style ----->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
 </head>
-<body>
-<h1>Hello World</h1>
+	<body>
+	
+	<!---header--->
+		<div class="header">
+		<!---container--->
+			<div class="container">
+			<div class="top-header">
+				<div class="logo">
+					<h2>贵阳八中</h2>
+				</div>
+				<div class="menu">
+					<a class="toggleMenu" href="#"><img src="images/nav-icon.png" alt="" /> </a>
+					<ul class="nav" id="nav">
+						<li class="active"><a href="#home">Home</a></li>
+						<li><a href="#welcome" class="scroll">Welcome</a></li>
+						<li><a href="#staff" class="scroll">Staff</a></li>
+						<li><a href="#schedule" class="scroll">Schedule</a></li>
+						<li><a href="#services" class="scroll">Services</a></li>
+						<li><a href="#features" class="scroll">Features</a></li>
+						<li><a href="#contact" class="scroll">Contact</a></li>
+					</ul>
+					<script type="text/javascript" src="js/responsive-nav.js"></script>
+					<script type="text/javascript" src="js/move-top.js"></script>
+					<script type="text/javascript" src="js/easing.js"></script>
+					<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			</div>
+		<!---container--->
+		</div>
+	<!---header--->
+	
+	<!---banner--->
+	<!----start-slider-script---->
+			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!----//End-slider-script---->
+			<!-- Slideshow 4 -->
+			    <div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			        <li>
+			          <img src="images/view1.jpg" alt="">
+						<div class="caption bounceInDown" data-wow-delay="0.4s">
+			          	<div class="slide-text-info">
+			          		<h1>2021贵阳市中学生模拟联合国联合校际交流会</h1>
+							<p>贵阳八中</p>
+			          	</div>
+			          </div>
+			        </li>
+			      </ul>
+			    </div>	         
+			    <div class="clearfix"> </div>
+			<!----- //End-slider---->
+		
+	<!---banner--->
+	
+	<!---content--->
+		<div class="content">
+			<div class="content-top" id="welcome">
+		<!---container--->
+				<div class="container">
+					<div class="content-we">
+						<h2><span class="we-are"> </span>
+							Welcome</h2>
+					</div>
+				<div class="row">
+					<p>贵阳市中学生模拟联合国联合校际交流会（GHSMUNSC－2021）将于 5 月上旬在贵阳市第八中学召开，我谨代表大会组委会全体工作⼈员、学术团队全体成员，向您和您的学校发出最诚挚的邀请。
+						本次大会由贵阳市第八中学主办，很高兴地看到来自各个学校的代表齐聚我校，参加本次校际交流会。在此，我代表学校向本次大会的召开表示衷心的祝贺。
+						模拟联合国大会是一项国际性的学生活动，对当代青年学生了解各国国情，探讨国际形势，丰富知识体系，提高思辨能力具有积极的作用。活动创办至今，已有六十多年的历史，得到世界各国政府和高校的重视。参会代表在模联的舞台上闻窗外事，感世间情，俯仰寰宇，心系天下，共同关注和探讨世界和平发展与⼈类文明进步的共同话题。努力使自己成为具有跨文化沟通能力和全球领导力的杰出人才。
+						模拟联合国让青年学子们有机会感受到联合国多边舞台的精彩，了解联合国多边领域的工作内容，加强对全球性问题的关注，开拓视野，培养和提高各方面的能力。更为重要的是，通过此活动我们的年轻一代有机会去深刻体会联合国的和平的理念和理想主义的精神，为建设⼈类社会的持久和平、为促进世界的和谐与繁荣贡献力量。每当我看到同学们脸上一丝不苟的专注神情，手中精心准备的厚厚的会议材料，你们在活动中所表现出的学识、能力和态度使我相信，不久的将来，你们都将成为各行各业的精英，在社会上实现你们的人生价值。
+						在未来的日子里，同学们将在八中的校园里，按照模联的活动规则，尽情发表自己的观点，展示自己的才华。我期待，在会场上看见代表们的精彩表现，更希望你们在模拟联合国活动之外仍然心系天下，保持对于国际事务的关心与热情，并用你们的热情感染身边的每一个人，世界需要倾听青年人的声音，世界更需要青年人的行动。
+						本次大会将会设置中文委员会、英文委员会共计四个会场和一个主新闻中心，大会规则为美式议事规则(基于罗伯特议事规则（Robert's Rules of Order)，根据⼈数情况我们将酌情考虑代表制度，如果您对本次大会有任何疑问，请与我们联系，我们将会为您提供详尽的答复，与此同时，若您有任何宝贵的意见或建议也请务必与大会组委会联系。
+						期待各位代表在会场上的精彩表现！</p>
+				</div>
+			</div>
+			<!---content-we-are--->
+			<div class="content-we-are" id="staff">
+			<!---container--->
+				<div class="container">
+					<div class="content-we">
+						<h2><span class="we-are"> </span>
+						STAFF INFORMATION</h2>
+					</div>
+				<div class="row">
+				<div class="col-md-3">
+					<div class="image-matter">
+						<div class="image-bro">
+						<h4>石小龙</h4>
+						<p>贵阳八中</p>
+						<p>秘书长</p>
+						</div>
+					</div>
+				</div>
+				<!----->
+				<div class="col-md-3">
+					<div class="image-matter">
+						<div class="image-bro">
+						<h4>杨佳青</h4>
+						<p>贵阳八中</p>
+						<p>执行秘书长</p>
+						</div>
+					</div>
+				</div>
+				<!----->
+				<div class="col-md-3">
+					<div class="image-matter">
+						<div class="image-bro">
+						<h4>张耕图</h4>
+						<p>自模人</p>
+						<p>副秘书长</p>
+						</div>
+					</div>
+				</div>
+				<!---- End ---->
+				<div class="col-md-3">
+					<div class="image-matter">
+						<div class="image-bro">
+						<h4>陈思雨</h4>
+						<p>贵阳八中</p>
+						<p>会务总监</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="image-matter">
+						<div class="image-bro">
+							<h4>蔡振中</h4>
+							<p>贵阳八中</p>
+							<p>信息总监</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+				<!---- End ---->
+				</div>
+			</div>
+			</div>
+
+			<!---container--->
+	
+		<!---container--->
+			<div class="content-what" id="schedule">
+				<div class="container">
+					<div class="content-we">
+						<h2><span class="we-are"> </span>
+							CONFERENCE SCHEDULE</h2>
+					</div>
+					<div class="row">
+						<div class="partnership">
+							<table class="table11_3">
+								<tr>
+									<th>5月2日</th>
+								</tr>
+								<tr>
+									<td>8:00-8:30</td><td>_</td><td>大会注册</td><td>REGISTRATION</td>
+								</tr>
+								<tr>
+									<td>8:30-9:00</td><td>  </td><td>开幕式</td><td>OPENING CEREMONY</td>
+								</tr>
+								<tr>
+									<td>9:10-12:30</td><td>  </td><td>分组会议</td><td>COMMITTEE SESSION</td>
+								</tr>
+								<tr>
+									<td>12:30-14:00</td><td>  </td><td>午餐</td><td>LUNCH TIME</td>
+								</tr>
+								<tr>
+									<td>14:00-18:00</td><td>  </td><td>分组会议</td><td>COMMITTEE SESSION</td>
+								</tr>
+							</table>
+						</div>
+						<div class="partnership">
+							<table class="table11_3">
+								<tr>
+									<th>5月3日</th>
+								</tr>
+								<tr>
+									<td>8:30-12:30</td><td>_</td><td>分组会议</td><td>COMMITTEE SESSION</td>
+								</tr>
+								<tr>
+									<td>12:30-14:00</td><td> </td><td>午餐</td><td>LUNCH TIME</td>
+								</tr>
+								<tr>
+									<td>14:00-16:00</td><td>  </td><td>分组会议</td><td>COMMITTEE SESSION</td>
+								</tr>
+								<tr>
+									<td>16:30-17:00</td><td>  </td><td>闭幕式</td><td>CLOSING CEREMONY</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>	
+			</div>
+		<!---container--->
+		<div class="content-features" id="features">
+				<div class="container">
+					<div class="content-work">
+						<h2><span class="work"> </span>
+						FEATURES.</h2>
+					</div>
+				<div class="row">
+					<div class="col-md-4 features-grass">
+						<a href="#"><img class="img-responsive" src="images/grass.jpg" alt=""/></a>
+						<h4>Product Design: Eames Chairs</h4>
+						<p>Eames designs are certainly iconic. Everyone of us know at least two or three of their famous chairs. I would even risk saying that most of us dream about having a nice Eames.</p>
+					</div>
+					<div class="col-md-4 features-grass">
+						<a href="#"><img class="img-responsive" src="images/cycle.jpg" alt=""/></a>
+						<h4>Elegant and Colorful Logos</h4>
+						<p>Eames designs are certainly iconic. Everyone of us know at least two or three of their famous chairs. I would even risk saying that most of us dream about having a nice Eames.</p>
+					</div>
+					<div class="col-md-4 features-grass">
+						<a href="#"><img class="img-responsive" src="images/water.jpg" alt=""/></a>
+						<h4>A Showcase of Creative</h4>
+						<p>Eames designs are certainly iconic. Everyone of us know at least two or three of their famous chairs. I would even risk saying that most of us dream about having a nice Eames.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				</div>
+		</div>
+		<!---container--->
+			<div class="content-stay" id="contact">
+				<div class="container">
+					<div class="content-we-touch">
+						<h2><span class="we-are-touch"> </span>
+						stay in touch.</h2>
+					</div>
+				</div>
+				
+				 <div class="container">
+					<div class="row contact-box">
+					<div class="col-md-6 contact-info">
+						<h3>contact information</h3>
+						<p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique nec dolor non, ornare sagittis dolor. Nulla vestibulum lacus sed molestie gravida.</p>
+						<p class="info">Cras fermentum elit quis magna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus </p>
+					</div>
+					
+					<div class="col-md-6 contact-form">
+						<form>
+							<div class="row">
+								<div class="col-md-6 your-name">
+									<span>YOUR NAME:</span>
+									<input type="text"name="your name">
+								</div>
+								<div class="col-md-6 your-name">
+									<span>YOUR EMAIL:</span>
+									<input type="text"name="your email">
+								</div>
+							</div>
+							
+								<div class=" your-msg">
+									<span>YOUR MESSAGE:</span>
+									<textarea cols="70" rows="5"name="message"> </textarea>
+								</div>
+							
+								<div class="your-submit">
+									<input type="submit"value="SEND MESSAGE" />
+								
+							</div>
+						</form>
+					</div>
+					</div>
+					
+					</div>
+
+			</div>
+		</div>
+	<!---content--->
+	<!---footer---->
+	<div class="footer">
+		<div class="container">
+		<div class="footer-top">
+			<div class="footer-class">
+				<p>Copyright &copy; 2014.Company name All rights reserved.More Templates <a href="http://www.ityuan.com/" target="_blank" title="IT猿资源库">IT猿资源库</a> - Collect from <a href="http://www.ityuan.com/" title="网页模板" target="_blank">网页模板</a></p>
+			</div>
+			<div class="footer-class-right">
+				<ul>
+					<li><a class="twitter" href="#"><span> </span></a><li>
+					<li><a class="facebook" href="#"><span> </span></a><li>
+					<li><a class="skype" href="#"><span> </span></a><li>
+					<li><a class="been" href="#"><span> </span></a><li>
+					<li><a class="linkedin" href="#"><span> </span></a><li>
+					</ul>
+			</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+	</div>
+	<!---footer---->
+
 </body>
 </html>
